@@ -21,8 +21,8 @@ export default function App() {
   const [bancoDestino, setBancoDestino] = useState('supabase');
 
   const API_URL = bancoDestino === 'supabase'
-    ? 'https://suportechamados-6eyi.onrender.com/api/chamados'
-    : 'https://suportechamados-6eyi.onrender.com/api/mariadb/chamados';
+    ? 'https://chamados-izz5.onrender.com/api/chamados'
+    : 'https://chamados-izz5.onrender.com/api/mariadb/chamados';
 
   async function carregarChamados() {
     try {
